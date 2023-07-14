@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-14T13:42:31 AEST" name="Suite" finished-at="2023-07-14T13:43:49 AEST" duration-ms="78308">
+    <groups>
+      <group name="Regression">
+        <method signature="TC02_LoginPositive.fill_form_positive()[pri:0, instance:org.rahulshettyacademy.AppiumFramework.TC02_LoginPositive@50468873]" name="fill_form_positive" class="org.rahulshettyacademy.AppiumFramework.TC02_LoginPositive"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="TC01_AddProducts.addToCart_checkamount(java.util.HashMap)[pri:0, instance:org.rahulshettyacademy.AppiumFramework.TC01_AddProducts@4ce1d6d0]" name="addToCart_checkamount" class="org.rahulshettyacademy.AppiumFramework.TC01_AddProducts"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-07-14T13:42:31 AEST" name="End to End Test" finished-at="2023-07-14T13:43:28 AEST" duration-ms="56986">
+      <class name="org.rahulshettyacademy.AppiumFramework.TC01_AddProducts">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:org.rahulshettyacademy.AppiumFramework.TC01_AddProducts@4ce1d6d0]" started-at="2023-07-14T13:42:31 AEST" name="configureAppium" finished-at="2023-07-14T13:42:37 AEST" duration-ms="6067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method signature="addToCart_checkamount(java.util.HashMap)[pri:0, instance:org.rahulshettyacademy.AppiumFramework.TC01_AddProducts@4ce1d6d0]" started-at="2023-07-14T13:42:37 AEST" name="addToCart_checkamount" data-provider="getData" finished-at="2023-07-14T13:43:00 AEST" duration-ms="22237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Rahul Shetty, country=Argentina, gender=Male}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart_checkamount -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:org.rahulshettyacademy.AppiumFramework.TC01_AddProducts@4ce1d6d0]" started-at="2023-07-14T13:43:00 AEST" name="teardown" finished-at="2023-07-14T13:43:00 AEST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:org.rahulshettyacademy.AppiumFramework.TC01_AddProducts@4ce1d6d0]" started-at="2023-07-14T13:43:00 AEST" name="configureAppium" finished-at="2023-07-14T13:43:06 AEST" duration-ms="5991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method signature="addToCart_checkamount(java.util.HashMap)[pri:0, instance:org.rahulshettyacademy.AppiumFramework.TC01_AddProducts@4ce1d6d0]" started-at="2023-07-14T13:43:06 AEST" name="addToCart_checkamount" data-provider="getData" finished-at="2023-07-14T13:43:28 AEST" duration-ms="21786" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Sri Prabhu, country=Australia, gender=Male}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart_checkamount -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:org.rahulshettyacademy.AppiumFramework.TC01_AddProducts@4ce1d6d0]" started-at="2023-07-14T13:43:28 AEST" name="teardown" finished-at="2023-07-14T13:43:28 AEST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- org.rahulshettyacademy.AppiumFramework.TC01_AddProducts -->
+    </test> <!-- End to End Test -->
+    <test started-at="2023-07-14T13:43:28 AEST" name="Error Validation" finished-at="2023-07-14T13:43:38 AEST" duration-ms="10163">
+      <class name="org.rahulshettyacademy.AppiumFramework.TC03_Loginnegative">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:org.rahulshettyacademy.AppiumFramework.TC03_Loginnegative@4ff4357f]" started-at="2023-07-14T13:43:28 AEST" name="configureAppium" finished-at="2023-07-14T13:43:33 AEST" duration-ms="4738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method signature="toastmessage()[pri:0, instance:org.rahulshettyacademy.AppiumFramework.TC03_Loginnegative@4ff4357f]" started-at="2023-07-14T13:43:33 AEST" name="toastmessage" finished-at="2023-07-14T13:43:38 AEST" duration-ms="5078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toastmessage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:org.rahulshettyacademy.AppiumFramework.TC03_Loginnegative@4ff4357f]" started-at="2023-07-14T13:43:38 AEST" name="teardown" finished-at="2023-07-14T13:43:38 AEST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- org.rahulshettyacademy.AppiumFramework.TC03_Loginnegative -->
+    </test> <!-- Error Validation -->
+    <test started-at="2023-07-14T13:43:38 AEST" name="Positive Validation" finished-at="2023-07-14T13:43:49 AEST" duration-ms="10902">
+      <class name="org.rahulshettyacademy.AppiumFramework.TC02_LoginPositive">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:org.rahulshettyacademy.AppiumFramework.TC02_LoginPositive@50468873]" started-at="2023-07-14T13:43:38 AEST" name="configureAppium" finished-at="2023-07-14T13:43:43 AEST" duration-ms="4975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method signature="fill_form_positive()[pri:0, instance:org.rahulshettyacademy.AppiumFramework.TC02_LoginPositive@50468873]" started-at="2023-07-14T13:43:43 AEST" name="fill_form_positive" finished-at="2023-07-14T13:43:49 AEST" duration-ms="5571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fill_form_positive -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:org.rahulshettyacademy.AppiumFramework.TC02_LoginPositive@50468873]" started-at="2023-07-14T13:43:49 AEST" name="teardown" finished-at="2023-07-14T13:43:49 AEST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- org.rahulshettyacademy.AppiumFramework.TC02_LoginPositive -->
+    </test> <!-- Positive Validation -->
+  </suite> <!-- Suite -->
+</testng-results>

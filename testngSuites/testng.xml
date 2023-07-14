@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="org.rahulshettyacademy.AppiumFramework.TestUtilies.Listeners"></listener>
+	</listeners>
+	<test thread-count="5" name="End to End Test">
+		<classes>
+			<class name="org.rahulshettyacademy.AppiumFramework.TC01_AddProducts" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="Error Validation">
+		<classes>
+			<class name="org.rahulshettyacademy.AppiumFramework.TC03_Loginnegative" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="Positive Validation">
+		<classes>
+			<class name="org.rahulshettyacademy.AppiumFramework.TC02_LoginPositive" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

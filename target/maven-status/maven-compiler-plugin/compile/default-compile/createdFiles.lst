@@ -1,0 +1,10 @@
+PageObjects\Android\FormPage.class
+PageObjects\Android\ProductCataloguePage.class
+utility\CommonActions$1.class
+PageObjects\Android\NewFormPage.class
+utility\IOSActions.class
+PageObjects\IOS\HomePage.class
+PageObjects\IOS\AlertPage.class
+PageObjects\Android\CartPage.class
+utility\CommonActions.class
+utility\AndroidActions.class
